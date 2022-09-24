@@ -3,7 +3,7 @@ body{
     color: whitesmoke;
 }
 .player{
-    height: 95vh;
+    height: 105vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -14,6 +14,7 @@ body{
     padding: 30px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 1000%;
 }
 .details{
     display: flex;
@@ -36,6 +37,22 @@ body{
     -webkit-border-radius:190px;
     border-radius: 190px;
 }
+.search-wrapper {
+    display : flex ;
+    flex-direction : column ;
+    gap : .25rem ;
+    width : 36% ;
+    border-radius: 50% ;  
+}
+input {
+    font-size : 1rem ;
+}
+    
+.user-cards {
+    display : grid ;
+    grid-template-columns : repeat (auto - fill, minmax(150px, 1fr)) ;
+}
+
 .now-playing{
     font-size: 1rem;
 }
