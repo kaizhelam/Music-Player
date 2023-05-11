@@ -34,6 +34,12 @@ const music_list = [
         music : 'music/fallingdown.mp3'
     },
     {
+        img : 'images/aya.PNG',
+        name : 'DAMSO',
+        artist : 'AYA',
+        music : 'music/aya ft damso.mp3'
+    },
+    {
         img : 'images/faded.png',
         name : 'Faded',
         artist : 'Alan Walker',
