@@ -40,6 +40,12 @@ const music_list = [
         music : 'music/Faded.mp3'
     },
     {
+        img : 'images/jefe PNG ',
+        name : 'JEFE',
+        artist : 'NINHO',
+        music : 'music/Jefe.mp3'
+    },
+    {
         img : 'images/ratherbe.jpg',
         name : 'Rather Be',
         artist : 'Clean Bandit',
